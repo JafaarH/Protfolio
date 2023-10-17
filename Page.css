@@ -1,0 +1,301 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    justify-content: center;
+    height: 50px;
+}
+
+.headingH2 {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.wholeBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    margin-top: 40px;
+    width: 70%;
+    text-align: center;
+}
+
+.html {
+    font-size: 30px;
+    color: red;
+    margin-right: 4px;
+}
+
+.css {
+    font-size: 31px;
+    color: blue;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.JS {
+    color: rgb(247, 247, 0);
+    font-size: 27px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.React {
+    color: rgb(27, 188, 241);
+    font-size: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.bootStrap {
+    color: purple;
+    font-size: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.typeScript {
+    color: blue;
+    font-size: 32px;
+    margin-left: 6px;
+}
+
+.about {
+    width: 70%;
+    margin-top: 160px;
+}
+
+.aboutContainer {
+    width: 100%;
+}
+
+.skills {
+    width: 70%;
+    margin-top: 200px;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projects {
+    width: 70%;
+    margin-top: 200px;
+}
+
+@media (width > 1000px ){
+    .about {
+        width: 60%;
+    }
+    .skills {
+        width: 60%;
+    }
+    .aboutContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+    .projects {
+        width: 60%;
+    }
+}
+
+.skillSpan, .skillSpan2, .skillSpan3, .skillSpan4, .skillSpan5, .skillSpan6, .skillSpan7, .skillSpan8, .skillSpan9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: rgb(121, 120, 120);
+}
+
+.skillSpan:hover, .skillSpan2:hover, .skillSpan3:hover, .skillSpan4:hover, .skillSpan5:hover, .skillSpan6:hover, .skillSpan7:hover, .skillSpan8:hover, .skillSpan9:hover{
+    transform: scale(1.05);
+    transition: 0.3s all;
+}
+
+.skillHtml {
+    font-size: 47px;
+    margin-top: 12px;
+}
+
+.skillSpan:hover {
+    color: red;
+}
+
+.skillCss{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.skillSpan2:hover {
+    color: blue;
+}
+
+.skillJS {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.skillSpan3:hover {
+    color: rgb(247, 247, 33);
+}
+
+.skillReact {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.skillSpan4:hover {
+    color: rgb(27, 188, 241);
+}
+
+.skillBootStrap {
+    font-size: 44px;
+    margin-top: 9px;
+}
+
+.skillSpan5:hover {
+    color: purple;
+}
+
+.skillTypeScript {
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.skillSpan6:hover {
+    color: blue;
+}
+
+.skillGit {
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.skillSpan7:hover {
+    color: orange;
+}
+
+.skillGitHub {
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.skillSpan8:hover {
+    color: #171515;
+}
+
+.skillNode {
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.skillSpan9:hover {
+    color: #6BA063;
+}
+
+.imagetodo {
+    border-radius: 5px;
+    width: 170px;
+    height: 190px;
+}
+
+.projectContainer {
+    display: flex;
+    margin-left: 59px;
+    margin-top: 70px;
+}
+
+.arrangment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid blue;
+    border-radius: 3px;
+    font-size: 12px;
+    color: blue;
+    padding: 3px;
+    margin: 0 3px;
+    box-shadow: 0 0 1px blue;
+}
+
+.codeAndLive {
+    font-weight: 700;
+    margin: 13px 10px;
+}
+
+.projectSubContainer {
+    display: flex;
+}
+
+@media(width < 700px) {
+    .projectContainer {
+        width: 100%;
+        margin-left: 0;
+    }
+    .imagetodo {
+        width: 210px;
+        height: 230px;
+    }
+    .projectSubContainer {
+        border: 1px solid rgb(136, 135, 135);
+        border-radius: 5px;
+        box-shadow: 0 0 1px black;
+    }
+}
+
+@media(width < 490px) {
+    .projectSubContainer {
+        border: 1px solid rgb(136, 135, 135);
+        border-radius: 5px;
+        box-shadow: 0 0 1px black;
+        width: 100vw;
+    }
+    .imagetodo {
+        width: 150px;
+        height: 250px;
+    }
+    .projectContainer {
+        width: 100%;
+        margin-left: 0;
+    }
+    .projects {
+        width: 97vw;
+    }
+    .skills{
+        width: 97vw;
+    }
+    .about{
+        width: 97vw;
+    }
+    .intro{
+        width: 97vw;
+    }
+    .contact{
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+.nameOfProject {
+    margin-top: 7px;
+}
+
+.contact {
+    margin-top: 200px;
+    margin-left: 50%;
+}
